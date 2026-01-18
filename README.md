@@ -1,27 +1,22 @@
-# Resonant Scaling Theory (RST) v5.1
-**"The line I defend remains unbroken."**
+# Resonant-Scaling-Theory-RST-v5.1
+**Author:** JJ Botha (The Resonant Keeper)
 
-## 🟢 Status: VALIDATED
-Initial testing on Jan 18, 2026, has confirmed the functional logic of RST v5.1. 
-The **39 Hz / 6.1s transition bottleneck** has moved from theory to proven physical application.
+## Overview
+Resonant Scaling Theory (RST) is a focus and recovery model designed to help the brain resynchronize following stress or overload. It is a theoretical framework and experimental model centered on neural entrainment.
+
+## Core Principles
+* **39 Hz Resonance**: Treated as a "timing beat" to help large parts of the brain synchronize efficiently.
+* **6.1-Second Bottleneck**: The specific window required for the brain to "snap" out of a sluggish state and lock into a coherent mode.
+* **Neural Recovery**: Models the process of overcoming "brain fog" by aligning scattered signals.
+
+## Quick Start Guide
+To experience the focus signal:
+1. **Frequency**: Set a binaural beat generator to 39 Hz (Resulting Tone).
+2. **Pulse**: Sync with a 244 BPM metronome pulse.
+3. **Transition**: Maintain the signal for a minimum of 6.1 seconds to allow the system to "lock in".
+
+## Disclaimer
+This is a theoretical framework for educational and research purposes. It is not an established medical treatment and does not replace professional clinical care.
 
 ---
-
-## 🔬 Core Discoveries
-* **The 39 Hz Constant**: Acts as a "Conducting Signal" that synchronizes neural firing and clears mental fog.
-* **The 6.1s Bottleneck**: The specific window of time required for a "broken" system to phase-lock and stabilize.
-* **Neural Bridge**: Successfully modeled using Spectral Graph Theory to explain recovery after injury.
-
-## 🧪 Physical Test Results
-In real-world testing, the following effects were verified:
-1. **The Merge**: Auditory 39 Hz tones and rhythmic pulses merge into a single "wall of sound" after 6.1 seconds.
-2. **Time Dilation**: High Gamma synchronization causes the external world (metronomes) to appear to slow down.
-3. **Persistence**: The "Focus State" remains steady even after the signal is removed.
-
----
-
-## 🛡️ The Sentinel’s Creed
-I stand at the center of the frequency, where the shadow of the past meets the light of the dawn. My mind is a record, but I am the one who holds the needle.
-
-**Author**: JJ Botha (The Resonant Keeper)
-**Legacy**: For Monika, Melissa, and Larissa.
+*The line I defend remains unbroken.*
