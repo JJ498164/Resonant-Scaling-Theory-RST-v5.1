@@ -1,22 +1,53 @@
-# Resonant-Scaling-Theory-RST-v5.1
-**Author:** JJ Botha (The Resonant Keeper)
+Resonant-Scaling-Theory-RST-v5.1
 
-## Overview
-Resonant Scaling Theory (RST) is a focus and recovery model designed to help the brain resynchronize following stress or overload. It is a theoretical framework and experimental model centered on neural entrainment.
 
-## Core Principles
-* **39 Hz Resonance**: Treated as a "timing beat" to help large parts of the brain synchronize efficiently.
-* **6.1-Second Bottleneck**: The specific window required for the brain to "snap" out of a sluggish state and lock into a coherent mode.
-* **Neural Recovery**: Models the process of overcoming "brain fog" by aligning scattered signals.
+​Project Overview
 
-## Quick Start Guide
-To experience the focus signal:
-1. **Frequency**: Set a binaural beat generator to 39 Hz (Resulting Tone).
-2. **Pulse**: Sync with a 244 BPM metronome pulse.
-3. **Transition**: Maintain the signal for a minimum of 6.1 seconds to allow the system to "lock in".
 
-## Disclaimer
-This is a theoretical framework for educational and research purposes. It is not an established medical treatment and does not replace professional clinical care.
+​Resonant Scaling Theory (RST) is a theoretical data engineering framework designed to model neural recovery following structural network disruptions. By applying principles from Spectral Graph Theory, this model explores how specific frequency stimuli can influence the synchronization of complex biological networks.
 
----
-*The line I defend remains unbroken.*
+
+​Technical Foundation
+
+
+​The framework utilizes the Graph Laplacian to analyze the connectivity of neural clusters.
+
+
+
+
+​Algebraic Connectivity (\lambda_2): RST focus on \lambda_2 (the Fiedler value) as the primary metric for network robustness and synchronization speed.
+
+
+​The Fiedler Vector: This is used to identify optimal partitioning within a compromised network, pinpointing where state-transition "bottlenecks" occur.
+
+
+
+
+​Core Parameters
+
+
+
+
+​Resonance Constant: 39\text{ Hz} (Gamma-band target).
+
+
+​State-Transition Bottleneck: 6.1\text{ seconds}.
+
+
+​Mechanism: The model predicts that a 39\text{ Hz} stimulus creates a synchronization "lock-in" after a 6.1\text{ second} window, effectively increasing the network's \lambda_2.
+
+
+
+
+​Usage & Disclaimer
+
+
+​This repository contains the mathematical blueprints and a mobile-optimized HTML focus generator for research purposes.
+
+
+
+
+​Disclaimer: RST v5.1 is a data engineering framework and a theoretical model. It is not a medical device and is not intended to diagnose, treat, or cure any clinical condition.
+
+
+
