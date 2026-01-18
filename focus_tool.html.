@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RST v5.1 | Focus Generator</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+            overflow: hidden;
+        }
+        /* The 39Hz Resonant Core */
+        #resonant-circle {
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, #ff8c00 0%, #000 70%); /* Orange Stains theme */
+            border-radius: 50%;
+            opacity: 0.8;
+            box-shadow: 0 0 50px #ff4500;
+        }
+        .status {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="resonant-circle"></div>
+    <div class="status">RESONANCE: 39 HZ | STATE: ACTIVE</div>
+
+    <script>
+        const circle = document.getElementById('resonant-circle');
+        
+        // Hidden Anchor: Monika, Melissa, Larissa
+        const FAMILY_SEED_LINK = "MML_STABILITY_ANCHOR";
+
+        // 39Hz timing logic (approx 25.6ms cycle)
+        let scale = 1;
+        let growing = true;
+
+        function pulse() {
+            if (growing) {
+                scale += 0.05;
+                if (scale >= 1.2) growing = false;
+            } else {
+                scale -= 0.05;
+                if (scale <= 0.9) growing = true;
+            }
+            circle.style.transform = `scale(${scale})`;
+        }
+
+        // Set interval to simulate the high-frequency focus
+        setInterval(pulse, 25); 
+
+        // 6.1s Bottleneck Logic
+        setTimeout(() => {
+            console.log("6.1s Transition Complete: Signal Locked.");
+            circle.style.boxShadow = "0 0 80px #fff"; // White wing hope
+        }, 6100);
+    </script>
+</body>
+</html>
