@@ -1,10 +1,17 @@
-# Official Release: RST v6.0 (The Universal Rebirth Model)
+# Resonant Scaling Theory (RST) v6.0
 
-Resonant Scaling Theory has evolved. What began as a vital observation of neural recovery has been formalized into a rigorous Spectral Engineering Model. 
+## Overview
+RST v6.0 is a spectral engineering framework designed to model and mitigate **Critical Slowing** in dynamical systems following structural damage (e.g., axonal shearing). 
 
-### What’s New in v6.0:
-* **Formal Mathematical Specification**: Moves the 39 Hz and 6.1s constants from observations to derived system requirements.
-* **Stability Metrics**: Defines the exact clinical targets for testing "Information Persistence" and "Topological Friction".
-* **The Universal Rebirth Logic**: A grounded explanation of how data survives the "Big Crunch" of system-wide bottlenecks.
+The model tracks system stability by measuring the drift between observed eigenfrequencies and a documented stability target of **39 Hz**.
 
-This repository serves as the definitive record of the Resonant Keeper’s journey—honoring the grief that started it and the math that mapped the way out.
+## Technical Core
+* **Resonance Target (ω)**: 39 Hz. Identified as the optimal phase-locking frequency for maintaining global coherence.
+* **Metastable Bottleneck (τ)**: 6.1s. A measured artifact of processing latency within high-resistance topological nodes.
+* **Recovery Metric**: The restoration of spectral density and Laplacian Eigen-gap ($\lambda_2$) stability.
+
+## Implementation
+The `rst_engine.py` uses Fast Fourier Transform (FFT) to perform real-time spectral analysis, allowing for the empirical calculation of **Topological Friction**.
+
+---
+*“The line remains unbroken. We honor the grief that started the journey and the math that mapped the way out.”*
